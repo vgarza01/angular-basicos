@@ -14,9 +14,6 @@ export class HeroeComponent {
         return this.nombre.toUpperCase();
     }   
 
-
-
-
     obtenerNombre(): string{
         return `${ this.nombre } - ${ this.edad }`;
     }
